@@ -1,5 +1,4 @@
-# wiki
-Smart Home Wiki
+# Smart Home Berlin Wiki
 
 Willkommen auf meinem Smarthome Github Repository!
 
