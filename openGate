@@ -1,0 +1,3 @@
+#Tor oeffnen
+
+define tueroffner notify HM_3596FB_unlock:Long|HM_5CDEF9_unlock:Long|HM_5CE388_unlock:Long|HM_69221F_Btn_02:Long set DoorBird Open_Door 1
