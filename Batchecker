@@ -1,0 +1,3 @@
+#Push Message bei leerer Batterie
+
+define BatChecker notify .*:[Bb]attery:.* { if($EVENT !~ m/ok/) {{fhem ("set Pushover msg 'Batteriewarnung' '$NAME: $EVENT:\nBatterien bitte bald wechseln'");;Log 3, "$NAME: Batteriewarnung $EVENT";;}}}
