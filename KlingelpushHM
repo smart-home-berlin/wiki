@@ -1,0 +1,1 @@
+HM_RCV_50_BidCoS_RF:hmstate:.* { if(time > $main::NewKlingeltime){ {fhem("set Pushover msg 'Klingel' 'Klingel' 'XXX' 0 ' '")}; $main::NewKlingeltime = time + 30;}}
